@@ -55,9 +55,9 @@ function Dashboard() {
 
   useEffect(() => {
     const mockStocks = [
-      { id: 1, name: 'AAPL', price: 150 },
-      { id: 2, name: 'GOOGL', price: 2800 },
-      { id: 3, name: 'TSLA', price: 720 },
+      { id: 1, name: 'META', price: 150 },
+      { id: 2, name: 'GOOGLE', price: 2800 },
+      { id: 3, name: 'TATA', price: 720 },
     ];
     setStocks(mockStocks);
   }, []);
